@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 25px;
+    background-color: rgb(230, 230, 250);
+}
+
+header {
+    margin-top: 30px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgb(244, 244, 252);
+}
+
+.description{
+    display: flex;
+    padding-top: 30px;
+    background-color: rgb(244, 244, 252);
+}
+
+.photo{
+    width: 30%;
+    margin: 0 auto;
+}
+.photo img{
+    display: block;
+    width: 192px;
+    margin: 0 auto;
+}
+
+/*     RIGHT SIDE TEXT DESCRIPTION  */
+.wraper{
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Work Experience  */
+
+.post{
+    margin: 0 auto 55px 35px;
+}
+
+#work_exp{
+    margin-bottom: 35px;
+}
+#work_exp h2{
+    margin-bottom: 10px;
+}
+#work_exp p{
+    margin-bottom: 15px;
+}
+#work_exp a{
+    color: #000;
+}
+#work_exp u{
+    line-height: 25px;
+}
+
+/*    SKILLS & Achievements   */
+
+#skills{
+    margin-bottom: 35px;
+}
+
+#skills h2, #achievements h2{
+    margin-bottom: 10px;
+}
+
+#skills li, #achievements li{
+    margin-left: 40px;
+    line-height: 25px;
+}

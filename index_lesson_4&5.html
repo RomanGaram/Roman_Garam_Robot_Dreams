@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./Styles/main.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./Styles/main.css"> -->
     <title>Resume page_Lesson 4</title>
 </head>
 <body>
@@ -14,7 +14,7 @@
     <main>
         <section class="description">
             <div class="photo">
-                <img src="./img/My photo.jpg" alt="My photo">
+                <img src="./img/My photo.jpg" alt="My photo" width="192px">
             </div>
             <div class="wraper">
                 <div class="post">
@@ -22,9 +22,45 @@
                     <h3>JUNIOR/TRAINEE FRONTEND DEVELOPER</h3>
                 </div>
                 <section id="work_exp">
-                    <h2>Work Experience</h2>
-                    <p><u><strong>2022 - Present time</strong></u><br> Unemployed. student again)</p>
-                    <p><u><strong>2009 - 2022</strong></u><br> From Deck Cadet to Chief Officer on cargo ships at <b><a href="https://marlow-navigation.com/en/" target="_blank">Marlow Navigation Crew & Ship Management</a></b>
+                    <table border="1" cellspacing="0" cellpadding="8px">
+                        <caption>
+                            <h2 align="left">Work Experience</h2>
+                        </caption>
+                        <thead>
+                            <tr>
+                                <th align="left">Period</th>
+                                <th>Position</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2022 - Present time</td>
+                                <td>Unemployed. student again)</td>
+                            </tr>
+                            <tr>
+                                <th rowspan="2" valign="top" align="left">Description</th>
+                                <td>Lorem ipsum dolor sit.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Lorem ipsum dolor sit amet.</td>
+                            </tr>
+                            <tr>
+                                <td>2009 - 2022</td>
+                                <td>From Deck Cadet to Chief Officer on cargo ships at <b><a href="https://marlow-navigation.com/en/" target="_blank">Marlow Navigation Crew & Ship Management</a></td>
+                            </tr>
+                            <tr>
+                                <th rowspan="3" valign="top" align="left">Description</th>
+                                <td>Lorem ipsum dolor sit.</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+                            </tr>
+                            <tr>
+                                <td>Lorem ipsum dolor sit amet consectetur.</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </section>
                 <section id="skills">
                     <h2>Skills</h2>

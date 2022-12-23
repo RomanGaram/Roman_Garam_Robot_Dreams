@@ -1,20 +1,51 @@
 body {
-    margin: 0 50px;
+    margin: 0 50px 50px;
     font-family: Arial, Helvetica, sans-serif;
     color: #333;
+}
+
+header{
+    border-bottom: 2px solid rgba(108, 250, 80, 0.863);
+    margin-bottom: 35px;
+}
+
+.name{
+    font-style: italic;
+    margin: 25px 0 0;
+}
+
+.photo{
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(108, 250, 80, 0.863); 
+}
+
+.photo img{
+    padding: 10px;
+    border: 2px solid rgba(108, 250, 80);
+}
+
+.post{
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(108, 250, 80, 0.863);
 }
 
 .post h3{
     font-weight: 900;
 }
 
-.name{
-    font-style: italic;
+#work_exp, #skills, #achievements{
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(108, 250, 80, 0.863);
+}
+
+table{
+    background-color: rgb(212, 255, 218);
 }
 
 th{
     text-transform: uppercase;
     font-weight: 900;
+    background-color: rgb(168, 255, 179);
 }
 
 .links{
@@ -32,3 +63,4 @@ th{
 #skills li{
     list-style-type: square;
 }
+

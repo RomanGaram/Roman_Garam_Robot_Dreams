@@ -1,51 +1,9 @@
+   
+   /* FOR ALL DOCUMET */
 body {
     margin: 0 50px 50px;
     font-family: Arial, Helvetica, sans-serif;
     color: #333;
-}
-
-header{
-    border-bottom: 2px solid rgba(108, 250, 80, 0.863);
-    margin-bottom: 35px;
-}
-
-.name{
-    font-style: italic;
-    margin: 25px 0 0;
-}
-
-.photo{
-    padding-bottom: 20px;
-    border-bottom: 2px solid rgba(108, 250, 80, 0.863); 
-}
-
-.photo img{
-    padding: 10px;
-    border: 2px solid rgba(108, 250, 80);
-}
-
-.post{
-    padding-bottom: 20px;
-    border-bottom: 2px solid rgba(108, 250, 80, 0.863);
-}
-
-.post h3{
-    font-weight: 900;
-}
-
-#work_exp, #skills, #achievements{
-    padding-bottom: 20px;
-    border-bottom: 2px solid rgba(108, 250, 80, 0.863);
-}
-
-table{
-    background-color: rgb(212, 255, 218);
-}
-
-th{
-    text-transform: uppercase;
-    font-weight: 900;
-    background-color: rgb(168, 255, 179);
 }
 
 .links{
@@ -60,6 +18,80 @@ th{
     text-decoration: none;
 }
 
+       /* TOP SECTION      */
+
+header{
+    border-bottom: 2px solid rgba(108, 250, 80, 0.863);
+    margin-bottom: 15px;
+}
+.top_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.left, .right{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.name{
+    font-style: italic;
+    margin: 25px 0 0;
+    border-bottom: 2px solid rgba(108, 250, 80, 0.863);
+    margin-bottom: 15px;
+}
+
+.photo{
+    width: 100px;
+    height: 100px;
+    background: url(../img/My_photo.png), center;
+} 
+
+.right{
+    padding: 10px;
+    border: 2px solid rgba(108, 250, 80, 0.863);
+}
+
+.post{
+    padding-bottom: 20px;
+}
+
+.post h3{
+    font-weight: 900;
+    margin-bottom: 40px;
+    border-bottom: 2px solid rgba(108, 250, 80, 0.863);
+}
+       /* END TOP SECTION    */
+
+
+       /* MAIN SECTION */
+.wraper{
+    display: flex;
+    flex-direction: column;
+}
+
+#work_exp, #skills, #achievements{
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(108, 250, 80, 0.863);
+}
+
+       /* TABLE */
+table{
+    background-color: rgb(212, 255, 218);
+    width: 100%;
+}
+
+th{
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: rgb(168, 255, 179);
+}
+
+        /* END TABLE */
+
+        /* SKILLS SECTION */
 #skills li{
     list-style-type: square;
 }
